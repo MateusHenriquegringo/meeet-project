@@ -149,3 +149,39 @@ body {
     top: -23em;
     z-index: 2;
 }
+
+@media (max-width: 600px) {
+    .fotos {
+        display: none;
+    }
+  body {
+    margin-left: 5px;
+  }
+    .titulo {
+        font-size: 9vw;
+        letter-spacing: 0;
+        flex-wrap: wrap;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    .texto {
+        width: 60vw;
+        font-size: 20px;
+        flex-wrap: wrap;
+    } 
+    .buttom {
+        width: 48vw;
+        height: auto;
+        font-size: 4vw;
+        display: flex;
+        justify-content: center;
+    }
+    .twitter{
+        display: flex;
+        align-items: center;
+        font-size: 4vw;
+    }
+
+}
